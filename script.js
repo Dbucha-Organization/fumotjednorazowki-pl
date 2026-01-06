@@ -222,3 +222,8 @@ noBtn.addEventListener("click", () => {
   window.close();
   window.location.href = "https://www.google.pl";
 });
+
+const yearSpan = document.querySelector('#year');
+if (yearSpan) {
+    yearSpan.innerText = new Date().getFullYear();
+}
